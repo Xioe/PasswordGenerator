@@ -10,24 +10,128 @@
 html,
 body {
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
   height: 100vh;
   background-color: #191D24;
+}
+
+.fields {
   position: relative;
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 30%;
 }
 
 .strenght {
   background-color: #353940;
-  width: 300px;
+  width: 500px;
   height: 30vh;
   font-size: 2em;
+  margin-right: 10rem;
+  border-radius: 2%;
+}
+
+.strenght__title {
+  font-size: 2.5em;
+  padding: 1em 0 0 1em;
+}
+
+.strenght__hint {
+  color: #50555f;
+  font-size: 1.3em;
+  padding-left: 1.8em;
 }
 
 .custom {
   background-color: #353940;
-  width: 300px;
+  width: 500px;
   height: 30vh;
   font-size: 2em;
+  border-radius: 2%;
+}
+
+.custom__title {
+  font-size: 2.5em;
+  padding: 1em 0 0 1em;
+}
+
+.custom__hint {
+  color: #50555f;
+  font-size: 1.3em;
+  padding-left: 1.8em;
+}
+
+.custom__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3em;
+  color: #6b6f7a;
+  padding-top: 1em;
+}
+
+.custom__lenght {
+  color: #fff;
+  font-size: 1.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.3em 0 0 1em;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  width: 90%;
+}
+
+.custom__lenght:focus {
+  outline: none;
+}
+
+.generate {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 40%;
+}
+
+.generate__btn {
+  background-color: #056bbd;
+  color: #fff;
+  border: none;
+  border-radius: 5%;
+  width: 100px;
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
