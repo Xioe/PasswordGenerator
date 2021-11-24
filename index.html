@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head lang="pl">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d63cfc9fc7.js" crossorigin="anonymous"></script>
+
+    <title>Password Generator</title>
+
+    <script src="https://kit.fontawesome.com/327a0d490c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- <div class="welcome">
+            <p>***</p>
+            <h1>Password Generator</h1>
+            <p>Services help to generate password in 1-2 click</p>
+        </div> -->
+
+        <div class="strenght">
+            <h3 class="strenght__title">Strenght</h3>
+            <p class="strenght__hint">Use enter to quick setup</p>
+            <div class="strenght__bar"></div>
+        </div>
+
+        <div class="custom">
+            <h3 class="custom custom__title">Custom</h3>
+            <p class="custom custom__hint">
+                Make custom password
+            </p>
+            <div class="custom__inputs">
+                <div class="input__number">
+                    <input type="checkbox" id="number" class="input__number number__checkbox">
+                    <label for="number" class="numbers__label">Numbers</label>
+                </div>
+                <div class="input__uppercase">
+                    <input type="checkbox" id="uppercase" class="input__uppercase uppercase__checkbox">
+                    <label for="uppercase" class="uppercase__label">Uppercase</label>
+                </div>
+                <div class="input__lowercase">
+                    <input type="checkbox" id="lowercase" class="input__lowercase lowercase__checkbox">
+                    <label for="lowercase" class="lowercase__label">Lowercase</label>
+                </div>
+                <div class="input__symbols">
+                    <input type="checkbox" id="symbols" class="input__symbols symbols__checkbox">
+                    <label for="symbols" class="symbols__label">Symbols</label>
+                </div>
+                <input type="number" id="input__lenght" min="1">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

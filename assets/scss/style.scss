@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    height: 100vh;
+    background-color: #191D24;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.strenght {
+    background-color: #353940;
+    width: 300px;
+    height: 30vh;
+    font-size: 2em;
+}
+
+.custom {
+    background-color: #353940;
+    width: 300px;
+    height: 30vh;
+    font-size: 2em;
+}
